@@ -1,6 +1,7 @@
 import click
 
 @click.command()
+@click.version_option("0.1.0", prog_name="RetirementSimulator")
 @click.argument('balances', type=click.Path(exists=True))
 #@click.option('--gui/--no-gui', default=False, help='Launch gui')
 @click.option('--debug', '-d', type=click.IntRange(0, 2, clamp=True), default=0)
