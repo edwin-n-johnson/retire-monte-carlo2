@@ -37,7 +37,7 @@ pyparsing==3.0.9
 python-dateutil==2.8.2
 pytz==2023.3
 requests==2.31.0
--e git+https://github.com/edwin-n-johnson/retire-monte-carlo.git@69beaffccd56adf21d1af478fb7999a373100614#egg=retire
+retire @ file:///C:/Users/Ed/GitHub/edwin-n-johnson/retire-monte-carlo-2
 six==1.16.0
 soupsieve==2.4.1
 tomlkit==0.11.8
